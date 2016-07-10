@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<level>
+  <name>LEVEL 0</name>
+
+  <!-- definition des sprites -->
+  <sprites>
+    <sprite>
+      <name>enemy_default_dead</name>
+      <delay>1</delay>
+      <frame_count>10</frame_count>
+      <frame>exp_0.bmp</frame>
+      <frame>exp_1.bmp</frame>
+      <frame>exp_2.bmp</frame>
+      <frame>exp_3.bmp</frame>
+      <frame>exp_4.bmp</frame>
+      <frame>exp_5.bmp</frame>
+      <frame>exp_6.bmp</frame>
+      <frame>exp_7.bmp</frame>
+      <frame>exp_8.bmp</frame>
+      <frame>exp_9.bmp</frame>
+    </sprite>
+  </sprites>
+
+
+  <!-- definition des tracage --> 
+  <traces>
+    <trace>
+      <name>tr_player_snowball</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>180</angle>
+      <speed>20</speed>
+    </trace>
+
+    <!-- rectiline speed 5 -->
+    <trace>
+      <name>tr_r_d0_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>0</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d5_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>5</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d10_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>10</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d30_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>30</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d-5_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>-5</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d-10_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>-10</angle>
+      <speed>5</speed>
+    </trace>
+
+   <trace>
+      <name>tr_r_d-30_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>-30</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d45_s5</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>45</angle>
+      <speed>5</speed>
+    </trace>
+
+    <!-- rectiline speed 7 -->
+    <trace>
+      <name>tr_r_d0_s7</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>0</angle>
+      <speed>7</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d30_s7</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>30</angle>
+      <speed>7</speed>
+    </trace>
+
+    <trace>
+      <name>tr_r_d-30_s7</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>-30</angle>
+      <speed>7</speed>
+    </trace>
+
+    <!-- rectiline speed 9 -->
+    <trace>
+      <name>tr_r_d42_s9</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>42</angle>
+      <speed>9</speed>
+    </trace>
+    <trace>
+      <name>tr_r_d-25_s9</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>-25</angle>
+      <speed>9</speed>
+    </trace>
+
+    <!-- speed 16 -->
+    <trace>
+      <name>tr_r_d0_s16</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>0</angle>
+      <speed>16</speed>
+    </trace>
+
+    <!-- speed 20 -->
+    <trace>
+      <name>tr_r_d0_s20</name>
+      <type>TRACE_RECTILINE</type>
+      <angle>0</angle>
+      <speed>20</speed>
+    </trace>
+
+
+    <!-- autoaim -->
+    <trace>
+      <name>tr_autoaim_s3</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>3</speed>
+    </trace>
+
+    <trace>
+      <name>tr_autoaim_s5</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>5</speed>
+    </trace>
+    <trace>
+      <name>tr_autoaim_s7</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>5</speed>
+    </trace>
+
+    <trace>
+      <name>tr_autoaim_s10</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>10</speed>
+    </trace>
+
+    <trace>
+      <name>tr_autoaim_s12</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>10</speed>
+    </trace>
+
+    <trace>
+      <name>tr_autoaim_s15</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>15</speed>
+    </trace>
+    <trace>
+      <name>tr_autoaim_s16</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>16</speed>
+    </trace>
+    <trace>
+      <name>tr_autoaim_s20</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>0</angle>
+      <speed>20</speed>
+    </trace>
+    <trace>
+      <name>tr_a20_s20</name>
+      <type>TRACE_AUTOAIM</type>
+      <angle>20</angle>
+      <speed>20</speed>
+    </trace>
+
+    <!-- circulaire -->
+    <trace>
+      <name>tr_c30_s3</name>
+      <type>TRACE_CIRCULAR</type>
+      <angle>30</angle>
+      <speed>3</speed>
+      <center>ENEMY</center>
+    </trace>
+
+    <trace>
+      <name>tr_c-20_s4</name>
+      <type>TRACE_CIRCULAR</type>
+      <angle>-20</angle>
+      <speed>4</speed>
+      <center>ENEMY</center>
+    </trace>
+
+    <trace>
+      <name>tr_c-20_s4</name>
+      <type>TRACE_CIRCULAR</type>
+      <angle>-20</angle>
+      <speed>4</speed>
+      <center>ENEMY</center>
+    </trace>
+
+    <trace>
+      <name>tr_c20_s10</name>
+      <type>TRACE_CIRCULAR</type>
+      <angle>-20</angle>
+      <speed>10</speed>
+      <center>ENEMY</center>
+    </trace>
+
+    <trace>
+      <name>tr_c20_s20</name>
+      <type>TRACE_CIRCULAR</type>
+      <angle>20</angle>
+      <speed>20</speed>
+      <center>ENEMY</center>
+    </trace>
+
+
+  </traces>
+
+  <!-- definition du type de bullet -->
+  <bullets_type>
+    <bullet_type>
+      <name>bullet_violet</name>
+      <surface>b_violet_32x32.bmp</surface>
+    </bullet_type>
+
+    <bullet_type>
+      <name>bullet_rouge</name>
+      <surface>b_rouge_32x32.bmp</surface>
+    </bullet_type>
+
+    <bullet_type>
+      <name>bullet_rouge_feu</name>
+      <surface>b_rfeu_32x32.bmp</surface>
+    </bullet_type>
+    
+    <bullet_type>
+      <name>bullet_bleu</name>
+      <surface>b_bleu_32x32.bmp</surface>
+    </bullet_type>
+
+    <bullet_type>
+      <name>bullet_player_snowball</name>
+      <surface>snowball_32x32.bmp</surface>
+    </bullet_type>
+  </bullets_type>
+
+  <!-- definition des bullets -->
+  <bullets>
+    <!-- bullet du player -->
+    <bullet>
+      <name>player_snowball</name>      
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_player_snowball</trace_name>
+      <bullet_type>bullet_player_snowball</bullet_type>
+    </bullet>
+
+    <!-- bullet des soldat -->
+    <bullet>
+      <name>bullet_soldat_d0_s5</name>
+      <x>0</x>
+      <y>5</y>
+      <trace_name>tr_r_d0_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_d0_s7</name>
+      <x>0</x>
+      <y>5</y>
+      <trace_name>tr_r_d0_s7</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_soldat_d30_s5</name>
+      <x>16</x>
+      <y>0</y>
+      <trace_name>tr_r_d30_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_d30_s7</name>
+      <x>16</x>
+      <y>0</y>
+      <trace_name>tr_r_d30_s7</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_d42_s9</name>
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_r_d42_s9</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <!-- negative -->
+    <bullet>
+      <name>bullet_soldat_d-25_s9</name>
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_r_d-25_s9</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_soldat_d-30_s5</name>
+      <x>-16</x>
+      <y>0</y>
+      <trace_name>tr_r_d-30_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_d-30_s7</name>
+      <x>-16</x>
+      <y>0</y>
+      <trace_name>tr_r_d-30_s7</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <!-- circulaire -->
+    <bullet>
+      <name>bullet_soldat_c30_s3</name>
+      <x>0</x>
+      <y>-30</y>
+      <trace_name>tr_c30_s3</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_soldat_c-20_s4_l90</name>
+      <x>0</x>
+      <y>-90</y>
+      <trace_name>tr_c-20_s4</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_soldat_c-20_s4_l90</name>
+      <x>0</x>
+      <y>-90</y>
+      <trace_name>tr_c-20_s4</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_soldat_c20_s10_l30</name>
+      <x>0</x>
+      <y>-90</y>
+      <trace_name>tr_c20_s10</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+
+
+    <!-- auto aim -->
+    <bullet>
+      <name>bullet_soldat_a_s3</name>
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_autoaim_s3</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_a_s5</name>
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_autoaim_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_soldat_a_s7</name>
+      <x>0</x>
+      <y>0</y>
+      <trace_name>tr_autoaim_s7</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    
+    <!-- bullet luttin -->
+    <bullet>
+      <name>bullet_big_lutin_r_d0_s5</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d0_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+    <bullet>
+      <name>bullet_big_lutin_r_d5_s5</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d5_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+    <bullet>
+      <name>bullet_big_lutin_r_d-5_s5</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d-5_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+    <bullet>
+      <name>bullet_big_lutin_r_d10_s5</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d10_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+    <bullet>
+      <name>bullet_big_lutin_r_d-10_s5</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d-10_s5</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+
+    <bullet>
+      <name>bullet_big_lutin_r_s20_1</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_r_d0_s20</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>    
+
+    <bullet>
+      <name>bullet_big_lutin_a_s16_0</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s16</trace_name>
+      <bullet_type>bullet_bleu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_big_lutin_a_s8_1</name>
+      <x>15</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s7</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_big_lutin_a_s8_2</name>
+      <x>-15</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s7</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_big_lutin_a_s12_0</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s12</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+
+    <bullet>
+      <name>bullet_big_lutin_a_s20_0</name>
+      <x>0</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s20</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+    <bullet>
+      <name>bullet_big_lutin_a_s15_1</name>
+      <x>15</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s15</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_big_lutin_a_s15_2</name>
+      <x>-15</x>
+      <y>-60</y>
+      <trace_name>tr_autoaim_s15</trace_name>
+      <bullet_type>bullet_rouge_feu</bullet_type>
+    </bullet>
+   
+   <!-- santa -->
+   <bullet>
+      <name>bullet_santa_0_c20_s20</name>
+      <x>-6</x>
+      <y>-129</y>
+      <trace_name>tr_c20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_1_c20_s20</name>
+      <x>-3</x>
+      <y>-129</y>
+      <trace_name>tr_c20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_2_c20_s20</name>
+      <x>3</x>
+      <y>-129</y>
+      <trace_name>tr_c20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_3_c20_s20</name>
+      <x>6</x>
+      <y>-129</y>
+      <trace_name>tr_c20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+
+   <bullet>
+      <name>bullet_santa_0_a20_s20</name>
+      <x>-6</x>
+      <y>-129</y>
+      <trace_name>tr_a20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_1_a20_s20</name>
+      <x>-3</x>
+      <y>-129</y>
+      <trace_name>tr_a20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_2_a20_s20</name>
+      <x>3</x>
+      <y>-129</y>
+      <trace_name>tr_a20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+   <bullet>
+      <name>bullet_santa_3_a20_s20</name>
+      <x>6</x>
+      <y>-129</y>
+      <trace_name>tr_a20_s20</trace_name>
+      <bullet_type>bullet_rouge</bullet_type>
+    </bullet>
+  </bullets>
+    
+  <!-- definition des waves -->
+  <waves>
+    
+    <!-- wave soldat -->
+    <!-- soldat 1 -->
+    <wave>
+      <name>wave_soldat_1_r_3</name>
+      <delay>50</delay>
+      <bullet_count>3</bullet_count>
+      <bullet_name>bullet_soldat_d0_s7</bullet_name>
+      <bullet_name>bullet_soldat_d30_s7</bullet_name>
+      <bullet_name>bullet_soldat_d-30_s7</bullet_name>
+    </wave>
+
+    <wave>
+      <name>wave_soldat_1_a_1</name>
+      <delay>60</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_a_s3</bullet_name>
+    </wave>
+
+    <!-- soldat 7 -->
+    <wave>
+      <name>wave_soldat_7_r_2</name>
+      <delay>30</delay>
+      <bullet_count>2</bullet_count>
+      <bullet_name>bullet_soldat_d42_s9</bullet_name>
+      <bullet_name>bullet_soldat_d-25_s9</bullet_name>
+    </wave>
+
+    <wave>
+      <name>wave_soldat_7_a_1</name>
+      <delay>35</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_a_s7</bullet_name>
+    </wave>
+
+    <!-- soldat 10 -->
+    <wave>
+      <name>wave_soldat_10_c_1</name>
+      <delay>50</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_c30_s3</bullet_name>
+    </wave>
+    
+    <!-- soldat 11 -->
+    <wave>
+      <name>wave_soldat_11_c_1</name>
+      <delay>50</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_c-20_s4_l90</bullet_name>
+    </wave>
+
+    <!-- soldat 11 -->
+    <wave>
+      <name>wave_soldat_13_c_1</name>
+      <delay>40</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_c-20_s4_l90</bullet_name>
+    </wave>
+
+    <!-- soldat 17 -->
+    <wave>
+      <name>wave_soldat_17_c_1</name>
+      <delay>50</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_soldat_c20_s10_l30</bullet_name>
+    </wave>
+
+    <!-- big lutin part 3 -->
+    <wave>
+      <name>wave_big_lutin_a3</name>
+      <delay>30</delay>
+      <bullet_count>3</bullet_count>
+      <bullet_name>bullet_big_lutin_a_s20_0</bullet_name>
+      <bullet_name>bullet_big_lutin_a_s15_1</bullet_name>
+      <bullet_name>bullet_big_lutin_a_s15_2</bullet_name>
+    </wave>
+
+    <wave>
+      <name>wave_big_lutin_a1</name>
+      <delay>10</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_big_lutin_a_s15_1</bullet_name>
+    </wave>
+    
+    <wave>
+      <name>wave_big_lutin_vomi</name>
+      <delay>10</delay>      
+      <bullet_count>5</bullet_count>
+      <bullet_name>bullet_big_lutin_r_d0_s5</bullet_name>
+      <bullet_name>bullet_big_lutin_r_d5_s5</bullet_name>
+      <bullet_name>bullet_big_lutin_r_d-5_s5</bullet_name>
+      <bullet_name>bullet_big_lutin_r_d10_s5</bullet_name>
+      <bullet_name>bullet_big_lutin_r_d-10_s5</bullet_name>
+    </wave>
+
+    <wave>
+      <name>wave_big_lutin_a1</name>
+      <delay>10</delay>
+      <bullet_count>1</bullet_count>
+      <bullet_name>bullet_big_lutin_a_s15_1</bullet_name>
+    </wave>
+    
+    <!-- santa -->
+    <wave>
+      <name>wave_santa_c4</name>
+      <delay>10</delay>
+      <bullet_count>4</bullet_count>
+      <bullet_name>bullet_santa_0_c20_s20</bullet_name>
+      <bullet_name>bullet_santa_1_c20_s20</bullet_name>
+      <bullet_name>bullet_santa_2_c20_s20</bullet_name>
+      <bullet_name>bullet_santa_3_c20_s20</bullet_name>
+    </wave>
+
+    <wave>
+      <name>wave_santa_a4</name>
+      <delay>10</delay>
+      <bullet_count>4</bullet_count>
+      <bullet_name>bullet_santa_0_a20_s20</bullet_name>
+      <bullet_name>bullet_santa_1_a20_s20</bullet_name>
+      <bullet_name>bullet_santa_2_a20_s20</bullet_name>
+      <bullet_name>bullet_santa_3_a20_s20</bullet_name>
+    </wave>
+  </waves>
+
+  <!-- definition des mouvements -->
+  <moves>
+    <!-- middle -->
+    <move>
+      <name>mv_middle_s5</name>
+      <move_relative>FALSE</move_relative>
+      <speed>5</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>220</y>
+    </move>
+
+    <move>
+      <name>mv_middle_s7</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>220</y>
+    </move>
+
+    <move>
+      <name>mv_middle_s8</name>
+      <move_relative>FALSE</move_relative>
+      <speed>8</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>220</y>
+    </move>
+
+    <move>
+      <name>mv_middle_s10</name>
+      <move_relative>FALSE</move_relative>
+      <speed>10</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>220</y>
+    </move>
+       
+    <!-- left -->
+    <move>
+      <name>mv_left_s5</name>
+      <move_relative>FALSE</move_relative>
+      <speed>5</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>100</x>
+      <y>200</y>
+    </move>
+
+    <move>
+      <name>mv_left_s7</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>100</x>
+      <y>200</y>
+    </move>
+
+    <move>
+      <name>mv_left_s8</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>100</x>
+      <y>200</y>
+    </move>
+
+    <move>
+      <name>mv_left_s10</name>
+      <move_relative>FALSE</move_relative>
+      <speed>10</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>100</x>
+      <y>200</y>
+    </move>
+
+    <!-- up -->
+    <move>
+      <name>mv_up_s5</name>
+      <move_relative>FALSE</move_relative>
+      <speed>5</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>400</y>
+    </move>
+
+    <move>
+      <name>mv_up_s7</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>400</y>
+    </move>
+
+    <move>
+      <name>mv_up_s8</name>
+      <move_relative>FALSE</move_relative>
+      <speed>8</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>400</y>
+    </move>
+
+    <move>
+      <name>mv_up_s10</name>
+      <move_relative>FALSE</move_relative>
+      <speed>10</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>400</y>
+    </move>
+
+    <!-- down -->
+    <move>
+      <name>mv_down_s5</name>
+      <move_relative>FALSE</move_relative>
+      <speed>5</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>30</y>
+    </move>
+
+    <move>
+      <name>mv_down_s7</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>30</y>
+    </move>
+
+    <move>
+      <name>mv_down_s8</name>
+      <move_relative>FALSE</move_relative>
+      <speed>8</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>30</y>
+    </move>
+
+    <move>
+      <name>mv_down_s10</name>
+      <move_relative>FALSE</move_relative>
+      <speed>10</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>30</y>
+    </move>
+
+    <!-- down ext -->
+    <move>
+      <name>mv_down_ext_s5</name>
+      <move_relative>FALSE</move_relative>
+      <speed>5</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>-30</y>
+    </move>
+
+    <move>
+      <name>mv_down_ext_s7</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>-30</y>
+    </move>
+
+    <move>
+      <name>mv_down_ext_s10</name>
+      <move_relative>FALSE</move_relative>
+      <speed>10</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>320</x>
+      <y>-30</y>
+    </move>
+
+    <!-- down left -->
+    <move>
+      <name>mv_down_left_ext_s8</name>
+      <move_relative>FALSE</move_relative>
+      <speed>8</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>100</x>
+      <y>-30</y>
+    </move>
+
+    <!-- predefined motion -->
+    <!-- move soldat rang 2 -->
+    <move>
+      <name>mv_soldat_2.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>6</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>700</x>
+      <y>-120</y>
+    </move>
+    <move>
+      <name>mv_soldat_2.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>6</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>700</x>
+      <y>-90</y>
+    </move>
+    <move>
+      <name>mv_soldat_2.2</name>
+      <move_relative>FALSE</move_relative>
+      <speed>6</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>700</x>
+      <y>-60</y>
+    </move>
+    <move>
+      <name>mv_soldat_2.3</name>
+      <move_relative>FALSE</move_relative>
+      <speed>6</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>700</x>
+      <y>-30</y>
+    </move>
+
+    <!-- move soldat rang 7 -->    
+    <move>
+      <name>mv_soldat_7.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>120</x>
+      <y>60</y>
+    </move>
+    <move>
+      <name>mv_soldat_7.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>520</x>
+      <y>60</y>
+    </move>
+    <move>
+      <name>mv_soldat_7.2</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>520</x>
+      <y>550</y>
+    </move>
+
+    <!-- move rang 8 -->
+    <move>
+      <name>mv_soldat_8.0.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>140</x>
+      <y>400</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.0.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>140</x>
+      <y>550</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.1.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>260</x>
+      <y>400</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.1.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>260</x>
+      <y>550</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.2.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>380</x>
+      <y>400</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.2.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>380</x>
+      <y>550</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.3.0</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>500</x>
+      <y>400</y>
+    </move>
+    <move>
+      <name>mv_soldat_8.3.1</name>
+      <move_relative>FALSE</move_relative>
+      <speed>7</speed>
+      <type>MOVE_RECTILINE</type>
+      <x>500</x>
+      <y>550</y>
+    </move>
+      
+  </moves>
+
+  <!-- definition du descripteur de mouvements -->
+  <moves_desc>
+    <!-- general motion -->
+    <moves>
+      <name>mv_camp_up_s8</name>
+      <count>1</count>
+      <move_name>mv_up_s8</move_name>
+    </moves>    
+
+    <moves>
+      <name>mv_camp_left_s8</name>
+      <count>1</count>
+      <move_name>mv_left_s8</move_name>
+    </moves>    
+
+    <moves>
+      <name>mv_camp_middle_s8</name>
+      <count>1</count>
+      <move_name>mv_middle_s8</move_name>
+    </moves>    
+    <moves>
+      <name>mv_camp_middle_s10</name>
+      <count>1</count>
+      <move_name>mv_middle_s10</move_name>
+    </moves>    
+    <moves>
+      <name>mv_camp_down_s8</name>
+      <count>1</count>
+      <move_name>mv_down_s8</move_name>
+    </moves>    
+    <moves>
+      <name>mv_camp_down_s10</name>
+      <count>1</count>
+      <move_name>mv_down_s10</move_name>
+    </moves>    
+
+    <!-- soldat rang 1 -->
+    <moves>
+      <name>mv_soldat_1</name>
+      <count>1</count>
+      <move_name>mv_down_ext_s5</move_name>
+    </moves>
+    
+    <!-- soldat rang 2 -->
+    <moves>
+      <name>mv_soldat_2.0</name>
+      <count>1</count>
+      <move_name>mv_soldat_2.0</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_2.1</name>
+      <count>1</count>
+      <move_name>mv_soldat_2.1</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_2.2</name>
+      <count>1</count>
+      <move_name>mv_soldat_2.2</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_2.3</name>
+      <count>1</count>
+      <move_name>mv_soldat_2.3</move_name>
+    </moves>
+    
+    <!-- soldat rang 3 -->
+    <moves>
+      <name>mv_soldat_3</name>
+      <count>2</count>
+      <move_name>mv_left_s8</move_name>
+      <move_name>mv_down_left_ext_s8</move_name>
+    </moves>
+
+    <!-- soldat rang 7 -->
+    <moves>
+      <name>mv_soldat_7</name>
+      <count>3</count>
+      <move_name>mv_soldat_7.0</move_name>
+      <move_name>mv_soldat_7.1</move_name>
+      <move_name>mv_soldat_7.2</move_name>
+    </moves>
+
+    <!-- soldat rang 8 -->
+    <moves>
+      <name>mv_soldat_8.0</name>
+      <count>2</count>
+      <move_name>mv_soldat_8.0.0</move_name>
+      <move_name>mv_soldat_8.0.1</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_8.1</name>
+      <count>2</count>
+      <move_name>mv_soldat_8.1.0</move_name>
+      <move_name>mv_soldat_8.1.1</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_8.2</name>
+      <count>2</count>
+      <move_name>mv_soldat_8.2.0</move_name>
+      <move_name>mv_soldat_8.2.1</move_name>
+    </moves>
+    <moves>
+      <name>mv_soldat_8.3</name>
+      <count>2</count>
+      <move_name>mv_soldat_8.3.0</move_name>
+      <move_name>mv_soldat_8.3.1</move_name>
+    </moves>
+    
+  </moves_desc>
+  
+  
+  <!-- definition des masques de collisions -->
+  <masks>
+    <mask>      
+      <name>m_32x32_default</name>
+      <width>32</width>
+      <height>32</height>
+    </mask>
+
+    <!-- boss lutin -->
+    <mask>      
+      <name>m_big_lutin_default</name>
+      <width>85</width>
+      <height>225</height>
+    </mask>
+    
+    <!-- boss santa -->
+    <mask>      
+      <name>m_santa_default</name>
+      <width>120</width>
+      <height>120</height>
+    </mask>
+  </masks>
+
+  <!-- definition des ennemies -->
+  <enemies>
+    <enemy>
+      <name>e_soldat_1</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>4</life>
+      <score>432</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>2</wave_count>
+      <wave_name>wave_soldat_1_r_3</wave_name>
+      <wave_name>wave_soldat_1_a_1</wave_name>
+    </enemy>
+    
+    <enemy>
+      <name>e_soldat_7</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>4</life>
+      <score>646</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>2</wave_count>
+      <wave_name>wave_soldat_7_r_2</wave_name>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+    </enemy>
+
+    <enemy>
+      <name>e_soldat_kikoo</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>6</life>
+      <score>1091</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>1</wave_count>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+    </enemy>    
+
+
+    <enemy>
+      <name>e_soldat_10</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>6</life>
+      <score>924</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>2</wave_count>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+      <wave_name>wave_soldat_10_c_1</wave_name>
+    </enemy>    
+
+    <enemy>
+      <name>e_soldat_11</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>6</life>
+      <score>1456</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>2</wave_count>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+      <wave_name>wave_soldat_11_c_1</wave_name>
+    </enemy>    
+
+    <enemy>
+      <name>e_soldat_13</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>6</life>
+      <score>1766</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>3</wave_count>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+      <wave_name>wave_soldat_11_c_1</wave_name>
+      <wave_name>wave_soldat_13_c_1</wave_name>
+    </enemy>    
+
+    <enemy>
+      <name>e_soldat_17</name>
+      <surface>enemy_32x32.bmp</surface>
+      <surface_when_touch>white_enemy_32x32.bmp</surface_when_touch>
+      <life>6</life>
+      <score>2546</score>
+      <mask>m_32x32_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>4</wave_count>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+      <wave_name>wave_soldat_7_a_1</wave_name>
+      <wave_name>wave_soldat_11_c_1</wave_name>
+      <wave_name>wave_soldat_13_c_1</wave_name>
+      <wave_name>wave_soldat_17_c_1</wave_name>
+    </enemy>    
+
+    <!-- boss lutin -->
+    <!-- part 1 -->
+    <enemy>
+      <name>b_big_puck_0</name>
+      <surface>l_0.bmp</surface>
+      <surface_when_touch>l_0.bmp</surface_when_touch>
+      <life>100</life>
+      <score>0</score>
+      <mask>m_big_lutin_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>0</wave_count>
+    </enemy>    
+
+    <!-- part 2 -->
+    <enemy>
+      <name>b_big_puck_1</name>
+      <surface>l_1.bmp</surface>
+      <surface_when_touch>l_1.bmp</surface_when_touch>
+      <life>100</life>
+      <score>0</score>
+      <mask>m_big_lutin_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>0</wave_count>
+    </enemy>    
+
+    <!-- part 3 -->    
+    <enemy>
+      <name>b_big_puck_2</name>
+      <surface>l_2.bmp</surface>
+      <surface_when_touch>l_t_2.bmp</surface_when_touch>
+      <life>700</life>
+      <score>50000</score>
+      <mask>m_big_lutin_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>0</mask_position_y>
+      <wave_count>3</wave_count>
+      <wave_name>wave_big_lutin_a3</wave_name>
+      <wave_name>wave_big_lutin_a1</wave_name>
+      <wave_name>wave_big_lutin_vomi</wave_name>
+    </enemy>        
+
+    <!-- santa -->
+    <!-- part 1 : presentation jusqu'au trigger_y_end -->
+    <enemy>
+      <name>b_santa_0</name>
+      <surface>b_santa.bmp</surface>
+      <surface_when_touch>b_santa.bmp</surface_when_touch>
+      <life>150</life>
+      <score>50000</score>
+      <mask>m_santa_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>-40</mask_position_y>
+      <wave_count>0</wave_count>
+    </enemy>        
+
+    <!-- part 2 : start of fighting -->
+    <enemy>
+      <name>b_santa_1</name>
+      <surface>b_santa.bmp</surface>
+      <surface_when_touch>b_w_santa.bmp</surface_when_touch>
+      <life>600</life>
+      <score>50000</score>
+      <mask>m_santa_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>-40</mask_position_y>
+      <wave_count>3</wave_count>
+      <wave_name>wave_big_lutin_a3</wave_name>
+      <wave_name>wave_big_lutin_a1</wave_name>
+      <wave_name>wave_big_lutin_vomi</wave_name>
+    </enemy>        
+
+    <!-- part 3 : cosmos -->
+    <enemy>
+      <name>b_santa_2</name>
+      <surface>b_1_santa.bmp</surface>
+      <surface_when_touch>b_w_santa.bmp</surface_when_touch>
+      <life>600</life>
+      <score>50000</score>
+      <mask>m_santa_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>-40</mask_position_y>
+      <wave_count>4</wave_count>
+      <wave_name>wave_santa_c4</wave_name>
+      <wave_name>wave_big_lutin_a3</wave_name>
+      <wave_name>wave_big_lutin_a1</wave_name>
+      <wave_name>wave_big_lutin_vomi</wave_name>
+    </enemy>        
+
+    <!-- part 4 : nowell -->
+    <enemy>
+      <name>b_santa_3</name>
+      <surface>b_2_santa.bmp</surface>
+      <surface_when_touch>b_w_santa.bmp</surface_when_touch>
+      <life>400</life>
+      <score>100000</score>
+      <mask>m_santa_default</mask>
+      <mask_position_x>0</mask_position_x>
+      <mask_position_y>-40</mask_position_y>
+      <wave_count>5</wave_count>
+      <wave_name>wave_santa_a4</wave_name>
+      <wave_name>wave_santa_c4</wave_name>
+      <wave_name>wave_big_lutin_a3</wave_name>
+      <wave_name>wave_big_lutin_a1</wave_name>
+      <wave_name>wave_big_lutin_vomi</wave_name>
+    </enemy>        
+  </enemies>
+
+  <!-- definition des emplacements des ennemies -->
+  <entities>
+    <!-- wave 1 : soldat TRIGGER 500 -->
+    
+    <!-- soldat no 1 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>500</trigger_y>
+      <move_desc>mv_soldat_1</move_desc>
+      <x>200</x>
+      <y>30</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>500</trigger_y>
+      <move_desc>mv_soldat_1</move_desc>
+      <x>400</x>
+      <y>30</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>500</trigger_y>
+      <move_desc>mv_soldat_1</move_desc>
+      <x>300</x>
+      <y>70</y>
+    </entity>
+
+    <!-- wave 2 : soldat TRIGGER 600 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>600</trigger_y>
+      <move_desc>mv_soldat_2.0</move_desc>
+      <x>0</x>
+      <y>30</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>600</trigger_y>
+      <move_desc>mv_soldat_2.1</move_desc>
+      <x>0</x>
+      <y>60</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>600</trigger_y>
+      <move_desc>mv_soldat_2.2</move_desc>
+      <x>0</x>
+      <y>90</y>
+    </entity>
+    
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>600</trigger_y>
+      <move_desc>mv_soldat_2.3</move_desc>
+      <x>0</x>
+      <y>120</y>
+    </entity>
+
+    <!-- wave 3 : soldat TRIGGER 680 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>680</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>480</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>680</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>510</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>680</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>540</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>680</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>570</x>
+      <y>210</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>680</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>600</x>
+      <y>240</y>
+    </entity>
+
+    <!-- wave 4 : soldat TRIGGER 710 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>710</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>480</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>710</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>510</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>710</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>540</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>710</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>570</x>
+      <y>210</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>710</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>600</x>
+      <y>240</y>
+    </entity>
+
+    <!-- wave 5 : soldat TRIGGER 740 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>740</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>480</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>740</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>510</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>740</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>540</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>740</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>570</x>
+      <y>210</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>740</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>600</x>
+      <y>240</y>
+    </entity>
+    
+    <!-- wave 6 : soldat TRIGGER 800 -->
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>800</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>0</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>800</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>-30</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>800</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>-60</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>800</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>-90</x>
+      <y>210</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_1</enemy>
+      <trigger_y>800</trigger_y>
+      <move_desc>mv_soldat_3</move_desc>
+      <x>-120</x>
+      <y>240</y>
+    </entity>
+
+    <!-- wave 7 TRIGGER 840 -->
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>70</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>110</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>190</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>230</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>270</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>310</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>350</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>840</trigger_y>
+      <move_desc>mv_soldat_7</move_desc>
+      <x>140</x>
+      <y>390</y>
+    </entity>
+
+    <!-- wave 8 TRIGGER : 900 -->
+    <entity>
+      <enemy>e_soldat_kikoo</enemy>
+      <trigger_y>900</trigger_y>
+      <move_desc>mv_soldat_8.0</move_desc>
+      <x>140</x>
+      <y>30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_kikoo</enemy>
+      <trigger_y>900</trigger_y>
+      <move_desc>mv_soldat_8.1</move_desc>
+      <x>260</x>
+      <y>30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_kikoo</enemy>
+      <trigger_y>900</trigger_y>
+      <move_desc>mv_soldat_8.2</move_desc>
+      <x>380</x>
+      <y>30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_kikoo</enemy>
+      <trigger_y>900</trigger_y>
+      <move_desc>mv_soldat_8.3</move_desc>
+      <x>500</x>
+      <y>30</y>
+    </entity>
+
+    <!-- wave 9 TRIGGER 920 -->
+    <entity>
+      <enemy>e_soldat_7</enemy>
+      <trigger_y>920</trigger_y>
+      <move_desc>mv_camp_middle_s10</move_desc>
+      <x>-30</x>
+      <y>-220</y>
+    </entity>
+
+    
+    <!-- wave 10 : appartition des tires circulaires TRIGGER 940 -->
+    <entity>
+      <enemy>e_soldat_10</enemy>
+      <trigger_y>940</trigger_y>
+      <move_desc>mv_camp_middle_s10</move_desc>
+      <x>700</x>
+      <y>-120</y>
+    </entity>
+
+    <!-- wave 11 : TRIGGER 960 -->
+    <entity>
+      <enemy>e_soldat_10</enemy>
+      <trigger_y>960</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>120</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_10</enemy>
+      <trigger_y>960</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>200</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_10</enemy>
+      <trigger_y>960</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>120</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_10</enemy>
+      <trigger_y>960</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>200</x>
+      <y>180</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_11</enemy>
+      <trigger_y>960</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>180</x>
+      <y>150</y>
+    </entity>
+    
+    <!-- wave 12 : TRIGGER 1000 -->
+    <entity>
+      <enemy>e_soldat_11</enemy>
+      <trigger_y>1000</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>180</x>
+      <y>150</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_11</enemy>
+      <trigger_y>1100</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>180</x>
+      <y>150</y>
+    </entity>
+
+    <entity>
+      <enemy>e_soldat_11</enemy>
+      <trigger_y>1300</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>180</x>
+      <y>150</y>
+    </entity>
+    
+    <!-- wave 13 : enemies pose des cercles TRIGGER 1400 -->
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1400</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>0</x>
+      <y>0</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1400</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>400</x>
+      <y>0</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1400</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>-100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1400</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>700</x>
+      <y>500</y>
+    </entity>
+
+    <!-- wave 14 : TRIGGER 1450 -->
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1450</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>400</x>
+      <y>100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1450</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>450</x>
+      <y>100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1500</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>500</x>
+      <y>100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1540</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>400</x>
+      <y>100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1600</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>0</x>
+      <y>100</y>
+    </entity>
+    
+    <!-- wave 15 : ennemies arrive en faisant un cercle, dans le sens des aiguilles d'une montre 
+	 TRIGGER 1610
+      -->
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>200</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>150</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>120</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>100</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>70</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>50</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>-50</x>
+      <y>30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>0</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>30</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>50</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>70</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>100</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>150</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>170</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1610</trigger_y>
+      <move_desc>mv_camp_middle_s8</move_desc>
+      <x>200</x>
+      <y>-30</y>
+    </entity>
+
+    <!-- wave 16 : TRIGGER 1800 -->
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1800</trigger_y>
+      <move_desc>mv_camp_down_s8</move_desc>
+      <x>200</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_down_s8</move_desc>
+      <x>220</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_down_s8</move_desc>
+      <x>240</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>250</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>270</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>300</x>
+      <y>-30</y>
+    </entity>    
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>300</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>330</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>370</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>400</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_13</enemy>
+      <trigger_y>1810</trigger_y>
+      <move_desc>mv_camp_up_s8</move_desc>
+      <x>420</x>
+      <y>-30</y>
+    </entity>
+
+    <!-- wave 17 : TRIGGER 1900 : circulaire avec longueur -->
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>420</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>360</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>340</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>320</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>460</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>480</x>
+      <y>-30</y>
+    </entity>
+    <entity>
+      <enemy>e_soldat_17</enemy>
+      <trigger_y>1900</trigger_y>
+      <move_desc>mv_camp_left_s8</move_desc>
+      <x>500</x>
+      <y>-30</y>
+    </entity>
+
+    <!-- 2300 pour le lutin donc 2100 max pour un enemie -->
+    <!-- senta close suit le lutin : trigger_y: 3220 trigger_y_end: 3700 -->    
+  </entities>
+
+  <!-- definition des musiques --> 
+  <musics>
+    <music>
+      <name>boss1</name>
+      <file>boss1.ogg</file>
+    </music>
+
+    <music>
+      <name>boss2</name>
+      <file>boss2.ogg</file>
+    </music>
+
+    <music>
+      <name>b1b2</name>
+      <file>b1b2.ogg</file>
+    </music>
+  </musics>
+  
+  <bosses>
+    <boss>
+      <name>Big Puck</name>
+      <music>boss1</music>
+      <music_after>b1b2</music_after>
+      <x>320</x>
+      <y>-170</y>
+      <trigger_y>2300</trigger_y>
+      <trigger_y_end>2720</trigger_y_end>
+      <enemy_part_count>3</enemy_part_count>
+      <enemy_part>
+	<delay>0</delay>
+	<msg_start>Puck : Hi man, let me drink a little bit.</msg_start>
+	<enemy>b_big_puck_0</enemy>
+      </enemy_part>
+      <enemy_part>
+	<delay>0</delay>
+	<msg_start>Gluh Gluh Gluh Gluh Gluh Gluh</msg_start>
+	<enemy>b_big_puck_1</enemy>
+	<msg_end>Puck : Aaaaaaaaargggggggggggggggggggggv[]</msg_end>
+      </enemy_part>	
+      <enemy_part>
+	<delay>99999</delay>
+	<msg_start>Puck : You must defeat me first!</msg_start>
+	<enemy>b_big_puck_2</enemy>
+	<msg_end>Puch : Arrrrg !</msg_end>
+      </enemy_part>
+    </boss>
+    
+    <boss>
+      <name>Black Santa</name>
+      <music>boss2</music>
+      <music_after>b1b2</music_after>
+      <x>320</x>
+      <y>-170</y>
+      <trigger_y>3000</trigger_y>
+      <trigger_y_end>3420</trigger_y_end>
+      <enemy_part_count>4</enemy_part_count>
+      <enemy_part>
+	<delay>0</delay>
+	<msg_start>Black Santa : Sandwiches can't always save Christmas!</msg_start>
+	<enemy>b_santa_0</enemy>	
+      </enemy_part>
+      <enemy_part>
+	<delay>999999</delay>
+	<enemy>b_santa_1</enemy>	
+      </enemy_part>
+      <enemy_part>
+	<delay>999999</delay>
+	<msg_start>Black Santa : BURN ! MY COSMOS !</msg_start>
+	<enemy>b_santa_2</enemy>
+      </enemy_part>	
+      <enemy_part>
+	<delay>999999</delay>
+	<msg_start>Black Santa : NOooooo.....weeellLLLL</msg_start>
+	<enemy>b_santa_3</enemy>
+	<msg_end>Black Santa : Wtf ?</msg_end>
+      </enemy_part>	
+    </boss>    
+  </bosses>
+</level>

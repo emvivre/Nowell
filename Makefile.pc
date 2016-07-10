@@ -1,0 +1,4 @@
+all:
+	make -C source/ -f Makefile.pc
+clean:	
+	rm noel source/*.o

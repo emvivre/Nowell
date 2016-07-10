@@ -1,0 +1,9 @@
+CC = gcc -Wall -Werror -g
+
+all:
+	$(CC) color.c credit.c dummy.c main.c mem_alloc.c mem.c menu_title.c collision.c g_xml.c game.c list.c math.c physic.c render.c sdl_stuff.c tutorial.c -o ../noel `sdl-config --cflags --libs` -lSDL_image -lSDL_mixer -lSDL_ttf -lSDL_gfx `xml2-config --cflags --libs` -lm
+
+clean:
+	@echo Cleaning up...
+	@rm noel
+	@echo Done.
